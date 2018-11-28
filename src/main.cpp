@@ -78,7 +78,9 @@ int main(int argc, char *argv[])
         return -1;
     }
 
-    //modity tnodes then save doc;
+    //modify tnodes then save doc;
+    //XMLElement::SetText
+
     doc.SaveFile( "./test.ocs" );
 
     return 0;
